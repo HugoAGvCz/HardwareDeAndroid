@@ -45,5 +45,9 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
+    // dependencia para lectura de codigos qr
     implementation("com.journeyapps:zxing-android-embedded:4.3.0")
+    // dependencias para lectura de ubicacion
+    implementation("com.google.android.gms:play-services-location:21.2.0")
+
 }
